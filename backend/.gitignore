@@ -1,0 +1,5 @@
+alembic/versions/
+.idea/
+logs/
+static/
+.venv/

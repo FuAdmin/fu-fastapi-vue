@@ -1,0 +1,26 @@
+fastapi==0.112.1
+fastapi-pagination==0.12.26
+SQLAlchemy~=2.0.32
+pydantic~=2.8.2
+alembic~=1.13.2
+uvicorn~=0.30.6
+python-jose==3.3.0
+cryptography==42.0.8
+# psycopg2-binary==2.9.9
+openpyxl==3.0.10
+# PostgreSQL异步驱动
+asyncpg==0.29.0
+# MySql异步驱动
+aiomysql==0.2.0
+PyJWT==2.9.0
+passlib[bcrypt]==1.7.4
+fastapi-async-sqlalchemy==0.6.1
+aiohttp==3.10.5
+psutil~=5.9.1
+redis~=5.0.8
+starlette~=0.37.2
+chardet==5.2.0
+psycopg2-binary==2.9.9
+mysqlclient==2.2.4
+user-agents==2.2.0
+python-multipart==0.0.9

@@ -7,10 +7,10 @@ DATABASE_HOST = "124.222.210.96"
 # 数据库端口
 DATABASE_PORT = 5432
 # 数据库用户名
-DATABASE_USER = "postgres"
+DATABASE_USER = "fuadmin"
 # 数据库密码
-DATABASE_PASSWORD = "Zhl939589097..."
+DATABASE_PASSWORD = "fuadmin"
 # 数据库名
-DATABASE_NAME = "fu-fast-api"
+DATABASE_NAME = "fu-fastapi-vue"
 
 IS_DEMO = False

@@ -4,7 +4,7 @@ from sqlalchemy import (
     String,
 )
 
-from common.fu_model import CoreModel
+from common.fu_model import CoreModel, UUIDStr
 
 
 class Dept(CoreModel):
@@ -15,4 +15,4 @@ class Dept(CoreModel):
     phone = Column(String(32), nullable=True, comment="Department Phone")
     email = Column(String(32), nullable=True, comment="Department Email")
     status = Column(Boolean, default=True, comment="Department Status")
-    parent_id = Column(String(36), nullable=True, comment="Department Parent")
+    parent_id = Column(UUIDStr, nullable=True, comment="Department Parent")

@@ -11,6 +11,6 @@ DATABASE_USER = "postgres"
 # 数据库密码
 DATABASE_PASSWORD = "Zhl939589097..."
 # 数据库名
-DATABASE_NAME = "fu-fast-api"
+DATABASE_NAME = "fu-fastapi-vue"
 
 IS_DEMO = True

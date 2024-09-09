@@ -6,7 +6,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import relationship
 
-from common.fu_model import CoreModel
+from common.fu_model import CoreModel, UUIDStr
 from system.button.model import Button
 
 from system.role.model import role_menu_association
@@ -15,7 +15,7 @@ from system.role.model import role_menu_association
 class Menu(CoreModel):
     __tablename__ = "sys_menu"
 
-    parent_id = Column(String(36), nullable=True, comment="Parent Menu Id")
+    parent_id = Column(UUIDStr, nullable=True, comment="Parent Menu Id")
     icon = Column(String(64), default="ant-design:book-outlined", comment="Menu Icon")
     title = Column(String(64), comment="Menu Title")
     is_embed_link = Column(Boolean, default=False, comment="Embed Link")
@@ -28,7 +28,7 @@ class Menu(CoreModel):
     status = Column(Boolean, default=True, nullable=True, comment="Menu Status")
     keep_alive = Column(Boolean, default=False, nullable=True, comment="Keep Alive")
     hide_menu = Column(Boolean, default=False, nullable=True, comment="Hide Menu")
-    template_id = Column(String(36), nullable=True, comment="Template Id")
+    template_id = Column(UUIDStr, nullable=True, comment="Template Id")
 
     # 定义一对多关系
     button = relationship(Button, back_populates="menu")

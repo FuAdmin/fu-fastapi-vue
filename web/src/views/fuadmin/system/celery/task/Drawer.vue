@@ -21,7 +21,7 @@
   import { createOrUpdate } from './api';
   import { formSchema } from './data';
   import { useI18n } from '@/hooks/web/useI18n';
-  import { FuadminCron } from '@/components/Fuadmin/Cron';
+  import { FuadminCron } from '@/components/Fu FastApi Vue/Cron';
 
   export default defineComponent({
     name: 'ButtonDrawer',

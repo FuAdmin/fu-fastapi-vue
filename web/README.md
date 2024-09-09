@@ -2,14 +2,14 @@
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
-<h1>Vue Fuadmin</h1>
+<h1>Vue Fu FastApi Vue</h1>
 </div>
 
 **English** | [中文](./README.zh-CN.md)
 
 ## Introduction
 
-Vue Fuadmin is a free and open source middle and back-end template. Using the latest `vue3`, `vite4`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
+Vue Fu FastApi Vue is a free and open source middle and back-end template. Using the latest `vue3`, `vite4`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
 
 ## Feature
 

@@ -6,7 +6,7 @@ export function createFakeUserList() {
     {
       userId: '1',
       username: 'vben',
-      realName: 'Fuadmin',
+      realName: 'Fu FastApi Vue',
       avatar: '',
       desc: 'manager',
       password: '123456',

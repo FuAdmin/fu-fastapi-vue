@@ -6,7 +6,7 @@
 from sqlalchemy import Column, String, BigInteger
 from sqlalchemy.orm import relationship
 
-from common.fu_model import CoreModel
+from common.fu_model import CoreModel, UUIDStr
 from system.user.model import user_post_association
 
 
@@ -18,4 +18,4 @@ class File(CoreModel):
     file_type = Column(String(50), comment="文件类型")
     url = Column(String(255), comment="文件路径")
     size = Column(BigInteger, comment="大小")
-    md5sum = Column(String(36), comment="文件md5")
+    md5sum = Column(UUIDStr, comment="文件md5")

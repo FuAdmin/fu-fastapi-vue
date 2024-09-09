@@ -2,7 +2,7 @@
 from sqlalchemy import URL
 from pathlib import Path
 
-ENV = "dev"
+ENV = "uat"
 
 if ENV == "dev":
     from config.dev_env import *

@@ -9,7 +9,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import relationship
 
-from common.fu_model import CoreModel, Base
+from common.fu_model import CoreModel, Base, UUIDStr
 
 user_role_association = Table(
     "sys_user_role",
@@ -37,7 +37,7 @@ class User(CoreModel):
     name = Column(String(255), comment="User Name")
     gender = Column(Integer, default=1, comment="User Gender")
     password = Column(String(255), comment="User Password")
-    dept_id = Column(String(36), nullable=True, comment="User Department")
+    dept_id = Column(UUIDStr, nullable=True, comment="User Department")
 
     role = relationship("Role", secondary=user_role_association, back_populates="user")
 

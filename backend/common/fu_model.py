@@ -6,17 +6,32 @@
 # QQ: 939589097
 import uuid
 
-from sqlalchemy import Column, Integer, DateTime, func, Boolean, String, ForeignKey
+from sqlalchemy import Column, Integer, DateTime, func, Boolean, String, ForeignKey, CHAR, TypeDecorator
 from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
+
+
+# 防止将UUID的字符串自动转为UUID类型
+class UUIDStr(TypeDecorator):
+    impl = String(36)
+
+    def process_bind_param(self, value, dialect):
+        # 在插入数据库时，将 Python 的 uuid.UUID 转换为字符串
+        if isinstance(value, uuid.UUID):
+            return str(value)
+        return value
+
+    def process_result_value(self, value, dialect):
+        # 在从数据库获取数据时，保留字符串类型，不转换为 uuid.UUID
+        return value
 
 
 class CoreModel(Base):
     __abstract__ = True  # 声明为抽象基类
 
     # 主键ID，使用UUID类型，默认值由uuid.uuid4生成
-    id = Column(String(36), primary_key=True, default=uuid.uuid4, comment="唯一标识符")
+    id = Column(UUIDStr, primary_key=True, default=uuid.uuid4, comment="唯一标识符")
 
     # 创建者ID，使用UUID类型
     sys_creator_id = Column(

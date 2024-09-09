@@ -12,6 +12,7 @@
 
 ## 🌟Django Ninja版
 
+- 源码地址：https://gitee.com/fuadmin/fu-admin
 - Django 开源版预览：[http://124.222.210.96:8080](https://gitee.com/link?target=http%3A%2F%2F124.222.210.96%3A8080)（免费开源）
 - Django Pro版预览：[http://124.222.210.96:6060](https://gitee.com/link?target=http%3A%2F%2F124.222.210.96%3A6060)（需要授权）
 

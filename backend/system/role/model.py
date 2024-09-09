@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 from sqlalchemy import Column, String, Boolean, Integer, Table, ForeignKey
 from sqlalchemy.orm import relationship
 

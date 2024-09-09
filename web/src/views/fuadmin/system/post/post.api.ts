@@ -2,7 +2,7 @@
  * -*- coding: utf-8 -*-
  * time: 2024/5/22 23:43
  * author: 臧成龙
- * JID: jzangc
+ * QQ: 939589097
  */
 import { defHttp } from '@/utils/http/axios';
 

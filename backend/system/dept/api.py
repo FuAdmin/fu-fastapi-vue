@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 from fastapi import APIRouter, Depends
 from common.fu_async_crud import create, delete, update, retrieve
 from common.fu_schema import IdSchema

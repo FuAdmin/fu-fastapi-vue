@@ -1,9 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# time: 10/8/2024 10:30 AM
-# file: fu_Base.py
-# author: 臧成龙
-# QQ: 939589097
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 import uuid
 
 from sqlalchemy import Column, Integer, DateTime, func, Boolean, String, ForeignKey, CHAR, TypeDecorator

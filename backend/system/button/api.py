@@ -1,5 +1,9 @@
+# -*- coding: utf-8 -*-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 from fastapi import Depends, APIRouter
-from sqlalchemy.orm import Session
 from common.fu_async_crud import create, delete, update, retrieve, export_data
 
 from common.fu_pagination import FuPage

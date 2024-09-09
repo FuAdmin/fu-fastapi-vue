@@ -2,7 +2,7 @@
  * -*- coding: utf-8 -*-
  * time: 2024/4/01 22:54
  * author: 臧成龙
- * JID: jzangc
+ * QQ: 939589097
  */
 
 import { BasicColumn, FormSchema } from '@/components/Table';

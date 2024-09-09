@@ -2,7 +2,7 @@
  * -*- coding: utf-8 -*-
  * time: 2024/5/30 23:32
  * author: 臧成龙
- * JID: jzangc
+ * QQ: 939589097
  */
 import { FormSchema } from '@/components/Form';
 import { rules } from '@/utils/helper/validator';

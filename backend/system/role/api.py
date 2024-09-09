@@ -1,8 +1,12 @@
+# -*- coding: utf-8 -*-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 from typing import List
 
 from fastapi import Depends, APIRouter
 from fastapi_async_sqlalchemy import db
-from fastapi_pagination.ext.sqlalchemy import paginate
 from sqlalchemy import select
 from sqlalchemy.orm import selectinload
 
@@ -11,12 +15,11 @@ from common.fu_async_crud import (
     delete,
     update,
     retrieve,
-    export_data,
     get_instance_by_id,
 )
 
 from common.fu_pagination import FuPage
-from common.fu_schema import ImportSchema, IdSchema, response_success
+from common.fu_schema import IdSchema, response_success
 from .model import Role
 from .schema import RoleOut, RoleIn, RoleFilters, UserRoleIn, RoleUserOut, RoleUserIn
 from ..menu.model import Menu

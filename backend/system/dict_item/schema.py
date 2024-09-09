@@ -1,9 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# time: 9/23/2024 10:51 PM
-# author: 臧成龙
-# QQ: 939589097
-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 from pydantic import BaseModel, Field
 
 from common.fu_schema import FuSchema, FuFilters

@@ -2,7 +2,7 @@
  * -*- coding: utf-8 -*-
  * time: 2024/5/11 22:12
  * author: 臧成龙
- * JID: jzangc
+ * QQ: 939589097
  */
 import { BasicColumn, FormSchema } from '@/components/Table';
 import { h } from 'vue';

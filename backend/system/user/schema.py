@@ -1,4 +1,8 @@
-from typing import List
+# -*- coding: utf-8 -*-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 
 from pydantic import BaseModel, Field
 

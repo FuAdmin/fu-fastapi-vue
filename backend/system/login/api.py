@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @QQ      : 939589097
+# @Time    : 2024/9/14 00:13
+# @Author  : 臧成龙
+# @Software: PyCharm
 from fastapi import Depends, APIRouter, Request, BackgroundTasks
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi_async_sqlalchemy import db
